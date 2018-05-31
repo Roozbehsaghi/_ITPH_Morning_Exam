@@ -27,19 +27,23 @@ public class Demo4 {
 		x++;		
 	
 		return true;
-	}	
+	}
+	void go() {	
+		int q = 7;
+		for(;q<4;){
+		System.out.println("x");
+	}
+
+	for(  int a = 0, b = 17  ; a < 100 ; a += 2 ){
+		System.out.println(a);
+	}
+
+	for(int x = 0 ; x < 10 ; x++){
+		System.out.println(x);
+	}
+}
 }
 
-for loop
+//for loop
 
-		for(;;){
-			System.out.println("x");
-		}
-
-		for(  int a = 0, b = 17  ; a < 100 ; a += 2 ){
-			System.out.println(a);
-		}
-
-		for(int x = 0 ; x < 10 ; x++){
-			System.out.println(x);
-		}
+	

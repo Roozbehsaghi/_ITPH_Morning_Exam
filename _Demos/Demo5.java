@@ -4,16 +4,16 @@ public class Demo5 {
 
 	public static void main(String[] args) {
 		
-		Cat[] cats = new Cat[4];
-		cats[0]  = new Cat();
+		Cat2[] cats = new Cat2[4];
+		cats[0]  = new Cat2();
 		cats[0].furrColor = "Red";
-		cats[1]  = new Cat();
+		cats[1]  = new Cat2();
 		cats[1].furrColor = "Blue";
-		cats[2]  = new Cat();
+		cats[2]  = new Cat2();
 		cats[2].furrColor = "Brown";
-		cats[3]  = new Cat();
+		cats[3]  = new Cat2();
 		cats[3].furrColor = "Black";
-		for( Cat c : cats ){
+		for( Cat2 c : cats ){
 			System.out.println(c.furrColor);
 		}
 	}
@@ -23,11 +23,6 @@ public class Demo5 {
 
 
 
-class Cat{
+class Cat2{
 	String furrColor;
-}
-
-		
-	}
-
 }
